@@ -10,12 +10,12 @@
 </head>
 <body>
   <article>
-<!--     <h1>プライバシーポリシー</h1>
-    <p><span id="company">company</span>（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。</p>
+    <h1>プライバシーポリシー</h1>
+    <p><span id="company"></span>（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。</p>
 
     <h2>第1条（個人情報）</h2>
     <p>「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及び健康保険証の保険者番号などの当該情報単体から特定の個人を識別できる情報（個人識別情報）を指します。</p>
- -->
+
     <h2>第2条（個人情報の収集方法）</h2>
     <p>当社は，ユーザーが利用登録をする際に氏名，生年月日，住所，電話番号，メールアドレス，銀行口座番号，クレジットカード番号，運転免許証番号などの個人情報をお尋ねすることがあります。また，ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や決済に関する情報を,当社の提携先（情報提供元，広告主，広告配信先などを含みます。以下，｢提携先｣といいます。）などから収集することがあります。</p>
 
@@ -96,7 +96,7 @@
     <h2>第10条（お問い合わせ窓口）</h2>
     <p>本ポリシーに関するお問い合わせは，下記の窓口までお願いいたします。</p>
     <p>住所： <span id="address"></span><br>
-    社名： <span id="company2">company</span><br>
+    社名： <span id="company2"></span><br>
     担当部署： <span id="department"></span><br>
     Eメールアドレス： <span id="email"></span></p>
 
@@ -109,9 +109,9 @@
     const address = params.get('address');
     const department = params.get('department');
     const email = params.get('email');
-    document.getElementById('company').innerHTML = 'プロ野球背番号クイズ';
+    document.getElementById('company').innerHTML = company;
     document.getElementById('address').innerHTML = address;
-    document.getElementById('company2').innerHTML = 'プロ野球背番号クイズ';
+    document.getElementById('company2').innerHTML = company;
     document.getElementById('department').innerHTML = department;
     document.getElementById('email').innerHTML = email;
   </script>
