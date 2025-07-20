@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Privacy Policy</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <article>
+    <h1>Privacy Policy</h1>
+    <p><span id="company"></span> (hereinafter referred to as “the Company”) establishes the following privacy policy (hereinafter referred to as “this Policy”) regarding the handling of users’ personal information in the services provided on this website (hereinafter referred to as “the Services”).</p>
+
+    <h2>Article 1 (Personal Information)</h2>
+    <p>“Personal Information” refers to information about a living individual that can identify the specific individual by name, date of birth, address, phone number, contact information, or other descriptions, as well as data such as facial features, fingerprints, voiceprints, and health insurance numbers that can identify the individual from the data alone.</p>
+
+    <h2>Article 2 (Collection of Personal Information)</h2>
+    <p>The Company may ask users to provide personal information such as name, date of birth, address, phone number, email address, bank account number, credit card number, and driver’s license number when registering for use. The Company may also collect transaction and payment records, including personal information, from our partners (including information providers, advertisers, and ad distributors, hereinafter referred to as “Partners”).</p>
+
+    <h2>Article 3 (Purpose of Collecting and Using Personal Information)</h2>
+    <p>The purposes for which the Company collects and uses personal information are as follows:</p>
+    <ol>
+      <li>To provide and operate the Services</li>
+      <li>To respond to user inquiries (including identity verification)</li>
+      <li>To send updates, new features, campaigns, or other service information to users</li>
+      <li>To provide necessary notices such as maintenance or important updates</li>
+      <li>To identify users who violate terms of use or use the Services for fraudulent or improper purposes, and to refuse their use</li>
+      <li>To allow users to view, update, or delete their registration information and usage history</li>
+      <li>To bill users for paid services</li>
+      <li>Other purposes related to the above</li>
+    </ol>
+
+    <h2>Article 4 (Changes to Purpose of Use)</h2>
+    <ol>
+      <li>The Company may change the purpose of use of personal information only if the new purpose is reasonably related to the original purpose.</li>
+      <li>In the event of a change, the new purpose will be notified to users or published on this website by the method specified by the Company.</li>
+    </ol>
+
+    <h2>Article 5 (Provision of Personal Information to Third Parties)</h2>
+    <ol>
+      <li>The Company will not provide personal information to third parties without prior user consent, except as permitted by law.
+        <ol>
+          <li>When necessary to protect life, body, or property and it is difficult to obtain user consent</li>
+          <li>When particularly necessary for public health or the sound upbringing of children</li>
+          <li>When cooperation is necessary for a national or local government agency to carry out its duties, and obtaining consent may interfere with those duties</li>
+          <li>When the following items are notified or publicly announced in advance:
+            <ol>
+              <li>That the purpose of use includes provision to third parties</li>
+              <li>Items of data provided</li>
+              <li>Means or method of provision</li>
+              <li>That provision to third parties can be stopped upon user request</li>
+              <li>How to accept such requests</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Even in the above cases, the recipients are not considered third parties if:
+        <ol>
+          <li>Personal information is outsourced within the necessary scope</li>
+          <li>Personal information is provided due to business succession such as a merger</li>
+          <li>Personal information is used jointly with a specific person, and that fact, the scope, purpose, and manager are disclosed to the user</li>
+        </ol>
+      </li>
+    </ol>
+
+    <h2>Article 6 (Disclosure of Personal Information)</h2>
+    <ol>
+      <li>Upon user request, the Company will disclose personal information without delay, except:
+        <ol>
+          <li>When disclosure may harm life, body, property, or other rights</li>
+          <li>When it significantly hinders business operations</li>
+          <li>When it violates laws</li>
+        </ol>
+        A fee of 1,000 yen per request will be charged.
+      </li>
+      <li>Information not considered personal information (such as history or characteristics) is not subject to disclosure.</li>
+    </ol>
+
+    <h2>Article 7 (Correction and Deletion of Personal Information)</h2>
+    <ol>
+      <li>Users can request correction, addition, or deletion of their personal information held by the Company if it is inaccurate.</li>
+      <li>The Company will promptly respond to such requests if deemed necessary.</li>
+      <li>Notification of the outcome will be provided to the user.</li>
+    </ol>
+
+    <h2>Article 8 (Suspension of Use, etc.)</h2>
+    <ol>
+      <li>Users can request suspension or deletion of their personal information if it is handled beyond its intended purpose or obtained unlawfully.</li>
+      <li>The Company will investigate and take appropriate action if necessary.</li>
+      <li>The user will be notified of the result.</li>
+      <li>If it's difficult to take such action due to high cost or technical reasons, alternative protective measures will be taken.</li>
+    </ol>
+
+    <h2>Article 9 (Changes to the Privacy Policy)</h2>
+    <ol>
+      <li>This Policy may be changed without prior notice to users, except as otherwise specified.</li>
+      <li>Unless otherwise specified, the revised Policy will become effective upon posting on this website.</li>
+    </ol>
+
+    <h2>Article 10 (Contact Information)</h2>
+    <p>For inquiries regarding this Policy, please contact:</p>
+    <p>
+      Address: <span id="address"></span><br>
+      Company Name: <span id="company2"></span><br>
+      Department: <span id="department"></span><br>
+      Email: <span id="email"></span>
+    </p>
+
+    <p>End</p>
+  </article>
+
+  <script type="text/javascript">
+    const params = new URLSearchParams(window.location.search);
+    const company = params.get('company');
+    const address = params.get('address');
+    const department = params.get('department');
+    const email = params.get('email');
+    document.getElementById('company').innerHTML = company;
+    document.getElementById('address').innerHTML = address;
+    document.getElementById('company2').innerHTML = company;
+    document.getElementById('department').innerHTML = department;
+    document.getElementById('email').innerHTML = email;
+  </script>
+</body>
+</html>
